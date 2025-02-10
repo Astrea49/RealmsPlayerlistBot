@@ -20,9 +20,7 @@ import rapidfuzz
 from rapidfuzz import process
 
 
-def extract_from_list[
-    T
-](
+def extract_from_list[T](
     argument: str,
     list_of_items: typing.Collection[T],
     processors: typing.Iterable[typing.Callable],
